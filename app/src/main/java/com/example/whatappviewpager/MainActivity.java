@@ -9,8 +9,8 @@ import android.os.Bundle;
 import com.example.whatappviewpager.WhatsApp.MyViewPagerAdapter;
 
 public class MainActivity extends AppCompatActivity {
-    ViewPager2 viewPagerVg;
-    MyViewPagerAdapter adapter;
+    private ViewPager2 viewPagerVg;
+    private MyViewPagerAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
