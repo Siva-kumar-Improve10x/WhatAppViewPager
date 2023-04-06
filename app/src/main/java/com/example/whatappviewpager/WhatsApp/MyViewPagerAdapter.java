@@ -14,12 +14,12 @@ public class MyViewPagerAdapter extends FragmentStateAdapter {
     @Override
     public Fragment createFragment(int position) {
         switch (position){
-            case 0:
-                return new ChatsFragment();
+
             case 1 :
                 return new StatusFragment();
             case 2 :
                 return new CallsFragment();
+            case 0:
             default:
                 return new ChatsFragment();
         }
